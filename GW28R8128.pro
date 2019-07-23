@@ -1,4 +1,4 @@
-update=Sunday, June 23, 2019 at 10:47:41 PM
+update=Friday, July 19, 2019 at 08:33:18 PM
 version=1
 last_client=kicad
 [general]
@@ -25,8 +25,8 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=28SF8128.net
-CopperLayerCount=4
+LastNetListRead=GW28R8128.net
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -75,21 +75,21 @@ OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0.07619999999999999
-SolderMaskMinWidth=0.1524
-SolderPasteClearance=-0.05
-SolderPasteRatio=0
+SolderMaskMinWidth=0.127
+SolderPasteClearance=-0.03809999999999999
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=1
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=1
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0

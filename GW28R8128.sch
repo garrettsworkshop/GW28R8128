@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:GW28R8128-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -44,63 +45,6 @@ F 1 "GND" H 2900 4100 50  0000 C CNN
 F 2 "" H 2900 4250 50  0001 C CNN
 F 3 "" H 2900 4250 50  0001 C CNN
 	1    2900 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 4250 2050 4250
-$Comp
-L power:GND #PWR0132
-U 1 1 607FA437
-P 2350 4250
-F 0 "#PWR0132" H 2350 4000 50  0001 C CNN
-F 1 "GND" H 2355 4077 50  0000 C CNN
-F 2 "" H 2350 4250 50  0001 C CNN
-F 3 "" H 2350 4250 50  0001 C CNN
-	1    2350 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 607FA434
-P 2350 4150
-F 0 "H2" H 2450 4201 50  0000 L CNN
-F 1 " " H 2450 4110 50  0000 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 2350 4150 50  0001 C CNN
-F 3 "~" H 2350 4150 50  0001 C CNN
-	1    2350 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 607FA433
-P 2050 4150
-F 0 "H1" H 2150 4201 50  0000 L CNN
-F 1 " " H 2150 4110 50  0000 L CNN
-F 2 "stdpads:PasteHole_1.1mm_PTH" H 2050 4150 50  0001 C CNN
-F 3 "~" H 2050 4150 50  0001 C CNN
-	1    2050 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole FID2
-U 1 1 607FA430
-P 2050 4750
-F 0 "FID2" H 2150 4796 50  0000 L CNN
-F 1 "Fiducial" H 2150 4705 50  0000 L CNN
-F 2 "stdpads:Fiducial" H 2050 4750 50  0001 C CNN
-F 3 "~" H 2050 4750 50  0001 C CNN
-	1    2050 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole FID1
-U 1 1 607FA42F
-P 2050 4550
-F 0 "FID1" H 2150 4596 50  0000 L CNN
-F 1 "Fiducial" H 2150 4505 50  0000 L CNN
-F 2 "stdpads:Fiducial" H 2050 4550 50  0001 C CNN
-F 3 "~" H 2050 4550 50  0001 C CNN
-	1    2050 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -172,9 +116,7 @@ D6
 Text Label 3200 2450 0    50   ~ 0
 D7
 Text Label 3200 2850 0    50   ~ 0
-~OE~
-Wire Wire Line
-	3200 3050 3200 3350
+~CS~
 $Comp
 L power:+5V #PWR0101
 U 1 1 5D154CE6
@@ -187,19 +129,6 @@ F 3 "" H 3200 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0102
-U 1 1 5D155289
-P 3400 2950
-F 0 "#PWR0102" H 3400 2800 50  0001 C CNN
-F 1 "+5V" H 3400 3100 50  0000 C CNN
-F 2 "" H 3400 2950 50  0001 C CNN
-F 3 "" H 3400 2950 50  0001 C CNN
-	1    3400 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 2950 3200 2950
-$Comp
 L power:GND #PWR0103
 U 1 1 5D155DE4
 P 3200 3550
@@ -210,7 +139,6 @@ F 3 "" H 3200 3550 50  0001 C CNN
 	1    3200 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 3200 3350
 Text Label 1800 1950 0    50   ~ 0
 A15
 Text Label 1800 2050 0    50   ~ 0
@@ -299,7 +227,7 @@ A16
 Text Label 3700 2650 2    50   ~ 0
 A10
 Text Label 3700 2750 2    50   ~ 0
-~OE~
+~CS~
 Text Label 3700 2850 2    50   ~ 0
 D7
 Text Label 3700 2950 2    50   ~ 0
@@ -310,5 +238,91 @@ Text Label 3700 3150 2    50   ~ 0
 D4
 Text Label 3700 3250 2    50   ~ 0
 D3
-Connection ~ 2350 4250
+$Comp
+L Device:R_Small R2
+U 1 1 5D31EA5F
+P 4850 2600
+F 0 "R2" H 4909 2646 50  0000 L CNN
+F 1 "22k" H 4909 2555 50  0000 L CNN
+F 2 "stdpads:R_0805" H 4850 2600 50  0001 C CNN
+F 3 "~" H 4850 2600 50  0001 C CNN
+	1    4850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5D31EC78
+P 4850 2500
+F 0 "#PWR0102" H 4850 2350 50  0001 C CNN
+F 1 "+5V" H 4850 2650 50  0000 C CNN
+F 2 "" H 4850 2500 50  0001 C CNN
+F 3 "" H 4850 2500 50  0001 C CNN
+	1    4850 2500
+	1    0    0    -1  
+$EndComp
+Text Label 3200 2950 0    50   ~ 0
+~WE~
+Text Label 3200 3050 0    50   ~ 0
+~OE~
+Text Label 4450 2500 0    50   ~ 0
+~OE~
+$Comp
+L Device:R_Small R1
+U 1 1 5D3208E4
+P 4450 2600
+F 0 "R1" H 4509 2646 50  0000 L CNN
+F 1 "22k" H 4509 2555 50  0000 L CNN
+F 2 "stdpads:R_0805" H 4450 2600 50  0001 C CNN
+F 3 "~" H 4450 2600 50  0001 C CNN
+	1    4450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D3208EA
+P 4450 2700
+F 0 "#PWR0106" H 4450 2450 50  0001 C CNN
+F 1 "GND" H 4450 2550 50  0000 C CNN
+F 2 "" H 4450 2700 50  0001 C CNN
+F 3 "" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	1    0    0    -1  
+$EndComp
+Text Label 4850 2800 2    50   ~ 0
+~WE~
+Wire Wire Line
+	4850 2800 4850 2700
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5D319AF4
+P 2050 4550
+F 0 "FID1" H 2135 4596 50  0000 L CNN
+F 1 "Fiducial" H 2135 4505 50  0000 L CNN
+F 2 "stdpads:Fiducial" H 2050 4550 50  0001 C CNN
+F 3 "~" H 2050 4550 50  0001 C CNN
+	1    2050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5D319ED4
+P 2050 4750
+F 0 "FID2" H 2135 4796 50  0000 L CNN
+F 1 "Fiducial" H 2135 4705 50  0000 L CNN
+F 2 "stdpads:Fiducial" H 2050 4750 50  0001 C CNN
+F 3 "~" H 2050 4750 50  0001 C CNN
+	1    2050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5D319F51
+P 2050 4950
+F 0 "FID3" H 2135 4996 50  0000 L CNN
+F 1 "Fiducial" H 2135 4905 50  0000 L CNN
+F 2 "stdpads:Fiducial" H 2050 4950 50  0001 C CNN
+F 3 "~" H 2050 4950 50  0001 C CNN
+	1    2050 4950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
