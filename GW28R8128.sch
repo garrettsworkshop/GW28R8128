@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:GW28R8128-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -48,7 +47,7 @@ F 3 "" H 2900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stdparts:39F040 U1
+L GW_RAM:Flash-512Kx8-PLCC-32 U1
 U 1 1 5E56BC07
 P 2700 2450
 F 0 "U1" H 2700 3500 50  0000 C CNN
@@ -69,74 +68,74 @@ F 3 "~" H 1600 2550 50  0001 C CNN
 	1    1600 2550
 	1    0    0    -1  
 $EndComp
-Text Label 2200 3150 2    50   ~ 0
+Text Label 2300 3150 2    50   ~ 0
 A16
-Text Label 2200 3050 2    50   ~ 0
+Text Label 2300 3050 2    50   ~ 0
 A15
-Text Label 2200 2950 2    50   ~ 0
+Text Label 2300 2950 2    50   ~ 0
 A14
-Text Label 2200 2850 2    50   ~ 0
+Text Label 2300 2850 2    50   ~ 0
 A13
-Text Label 2200 2750 2    50   ~ 0
+Text Label 2300 2750 2    50   ~ 0
 A12
-Text Label 2200 2650 2    50   ~ 0
+Text Label 2300 2650 2    50   ~ 0
 A11
-Text Label 2200 2550 2    50   ~ 0
+Text Label 2300 2550 2    50   ~ 0
 A10
-Text Label 2200 2450 2    50   ~ 0
+Text Label 2300 2450 2    50   ~ 0
 A9
-Text Label 2200 2350 2    50   ~ 0
+Text Label 2300 2350 2    50   ~ 0
 A8
-Text Label 2200 2250 2    50   ~ 0
+Text Label 2300 2250 2    50   ~ 0
 A7
-Text Label 2200 2150 2    50   ~ 0
+Text Label 2300 2150 2    50   ~ 0
 A6
-Text Label 2200 2050 2    50   ~ 0
+Text Label 2300 2050 2    50   ~ 0
 A5
-Text Label 2200 1950 2    50   ~ 0
+Text Label 2300 1950 2    50   ~ 0
 A4
-Text Label 2200 1850 2    50   ~ 0
+Text Label 2300 1850 2    50   ~ 0
 A3
-Text Label 2200 1750 2    50   ~ 0
+Text Label 2300 1750 2    50   ~ 0
 A2
-Text Label 3200 1750 0    50   ~ 0
+Text Label 3100 1750 0    50   ~ 0
 D0
-Text Label 3200 1850 0    50   ~ 0
+Text Label 3100 1850 0    50   ~ 0
 D1
-Text Label 3200 1950 0    50   ~ 0
+Text Label 3100 1950 0    50   ~ 0
 D2
-Text Label 3200 2050 0    50   ~ 0
+Text Label 3100 2050 0    50   ~ 0
 D3
-Text Label 3200 2150 0    50   ~ 0
+Text Label 3100 2150 0    50   ~ 0
 D4
-Text Label 3200 2250 0    50   ~ 0
+Text Label 3100 2250 0    50   ~ 0
 D5
-Text Label 3200 2350 0    50   ~ 0
+Text Label 3100 2350 0    50   ~ 0
 D6
-Text Label 3200 2450 0    50   ~ 0
+Text Label 3100 2450 0    50   ~ 0
 D7
-Text Label 3200 2850 0    50   ~ 0
+Text Label 3100 2850 0    50   ~ 0
 ~CS~
 $Comp
 L power:+5V #PWR0101
 U 1 1 5D154CE6
-P 3200 1550
-F 0 "#PWR0101" H 3200 1400 50  0001 C CNN
-F 1 "+5V" H 3200 1700 50  0000 C CNN
-F 2 "" H 3200 1550 50  0001 C CNN
-F 3 "" H 3200 1550 50  0001 C CNN
-	1    3200 1550
+P 3100 1550
+F 0 "#PWR0101" H 3100 1400 50  0001 C CNN
+F 1 "+5V" H 3100 1700 50  0000 C CNN
+F 2 "" H 3100 1550 50  0001 C CNN
+F 3 "" H 3100 1550 50  0001 C CNN
+	1    3100 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5D155DE4
-P 3200 3550
-F 0 "#PWR0103" H 3200 3300 50  0001 C CNN
-F 1 "GND" H 3200 3400 50  0000 C CNN
-F 2 "" H 3200 3550 50  0001 C CNN
-F 3 "" H 3200 3550 50  0001 C CNN
-	1    3200 3550
+P 3100 3550
+F 0 "#PWR0103" H 3100 3300 50  0001 C CNN
+F 1 "GND" H 3100 3400 50  0000 C CNN
+F 2 "" H 3100 3550 50  0001 C CNN
+F 3 "" H 3100 3550 50  0001 C CNN
+	1    3100 3550
 	1    0    0    -1  
 $EndComp
 Text Label 1800 1950 0    50   ~ 0
@@ -159,24 +158,22 @@ Text Label 1800 2850 0    50   ~ 0
 A0
 Text Label 1800 2750 0    50   ~ 0
 A1
-Text Label 2200 1550 2    50   ~ 0
+Text Label 2300 1550 2    50   ~ 0
 A0
-Text Label 2200 1650 2    50   ~ 0
+Text Label 2300 1650 2    50   ~ 0
 A1
 Text Label 1800 2950 0    50   ~ 0
 D0
 Text Label 1800 3050 0    50   ~ 0
 D1
 Wire Wire Line
-	2200 3250 2200 3350
+	2300 3250 2300 3350
 Wire Wire Line
-	3200 3550 3200 3350
+	3100 3550 3100 3350
 Wire Wire Line
-	2200 3350 2200 3550
-Connection ~ 2200 3350
-Wire Wire Line
-	2200 3550 3200 3550
-Connection ~ 3200 3550
+	2300 3350 2300 3550
+Connection ~ 2300 3350
+Connection ~ 3100 3550
 Text Label 1800 3150 0    50   ~ 0
 D2
 $Comp
@@ -241,28 +238,28 @@ D3
 $Comp
 L Device:R_Small R2
 U 1 1 5D31EA5F
-P 4850 2600
-F 0 "R2" H 4909 2646 50  0000 L CNN
-F 1 "22k" H 4909 2555 50  0000 L CNN
-F 2 "stdpads:R_0805" H 4850 2600 50  0001 C CNN
-F 3 "~" H 4850 2600 50  0001 C CNN
-	1    4850 2600
+P 5350 2550
+F 0 "R2" H 5409 2596 50  0000 L CNN
+F 1 "22k" H 5409 2505 50  0000 L CNN
+F 2 "stdpads:R_0805" H 5350 2550 50  0001 C CNN
+F 3 "~" H 5350 2550 50  0001 C CNN
+	1    5350 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0102
 U 1 1 5D31EC78
-P 4850 2500
-F 0 "#PWR0102" H 4850 2350 50  0001 C CNN
-F 1 "+5V" H 4850 2650 50  0000 C CNN
-F 2 "" H 4850 2500 50  0001 C CNN
-F 3 "" H 4850 2500 50  0001 C CNN
-	1    4850 2500
+P 5350 2450
+F 0 "#PWR0102" H 5350 2300 50  0001 C CNN
+F 1 "+5V" H 5350 2600 50  0000 C CNN
+F 2 "" H 5350 2450 50  0001 C CNN
+F 3 "" H 5350 2450 50  0001 C CNN
+	1    5350 2450
 	1    0    0    -1  
 $EndComp
-Text Label 3200 2950 0    50   ~ 0
+Text Label 3100 2950 0    50   ~ 0
 ~WE~
-Text Label 3200 3050 0    50   ~ 0
+Text Label 3100 3050 0    50   ~ 0
 ~OE~
 Text Label 4450 2500 0    50   ~ 0
 ~OE~
@@ -288,10 +285,10 @@ F 3 "" H 4450 2700 50  0001 C CNN
 	1    4450 2700
 	1    0    0    -1  
 $EndComp
-Text Label 4850 2800 2    50   ~ 0
+Text Label 5350 2750 2    50   ~ 0
 ~WE~
 Wire Wire Line
-	4850 2800 4850 2700
+	5350 2750 5350 2650
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5D319AF4
@@ -325,4 +322,32 @@ F 3 "~" H 2050 4950 50  0001 C CNN
 	1    2050 4950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2300 3550 3100 3550
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5EC6BC7D
+P 4750 2500
+F 0 "TP1" H 4808 2624 50  0000 L CNN
+F 1 "~OE~" H 4808 2526 50  0000 L CNN
+F 2 "stdpads:Tyco_RCU_0603_Paste" H 4950 2500 50  0001 C CNN
+F 3 "~" H 4950 2500 50  0001 C CNN
+	1    4750 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2500 4450 2500
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5EC6C318
+P 5650 2750
+F 0 "TP2" H 5708 2874 50  0000 L CNN
+F 1 "~WE~" H 5708 2776 50  0000 L CNN
+F 2 "stdpads:Tyco_RCU_0603_Paste" H 5850 2750 50  0001 C CNN
+F 3 "~" H 5850 2750 50  0001 C CNN
+	1    5650 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2750 5350 2750
 $EndSCHEMATC
