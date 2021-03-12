@@ -1,0 +1,15 @@
+### Module positions - created on Friday, March 12, 2021 at 10:35:48 AM ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                   PosX       PosY       Rot  Side
+C1        100n      C_0805                 48.6800   -26.6700  180.0000  top
+FID1      Fiducial  Fiducial               43.1800   -20.3200    0.0000  top
+FID2      Fiducial  Fiducial               43.1800   -53.3400    0.0000  top
+FID3      Fiducial  Fiducial               53.3400   -53.3400    0.0000  top
+R1        22k       R_0805                 46.9900   -48.8950  180.0000  top
+R2        22k       R_0805                 52.0700   -26.0350  270.0000  top
+TP1       ~OE~      Tyco_RCU_0603_Paste    49.7840   -51.9430    0.0000  top
+TP2       ~WE~      Tyco_RCU_0603_Paste    46.7360   -51.9430    0.0000  top
+U1        39SF010   PLCC-32                48.2600   -36.8300    0.0000  top
+## End
