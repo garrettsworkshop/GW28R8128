@@ -286,7 +286,7 @@
     (descr "28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads")
     (path /5DECC3CD)
-    (fp_text reference J1 (at 5.715 16.51) (layer B.SilkS)
+    (fp_text reference J1 (at 5.715 16.51) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Socket (at 7.62 35.35) (layer F.Fab)
