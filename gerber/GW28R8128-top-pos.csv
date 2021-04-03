@@ -1,4 +1,4 @@
-Ref,Val,Package,MidX,MidY,Rot,Side
+Ref,Val,Package,PosX,PosY,Rot,Side
 "C1","100n","C_0805",48.680000,-26.670000,180.000000,top
 "FID1","Fiducial","Fiducial",43.180000,-20.320000,0.000000,top
 "FID2","Fiducial","Fiducial",43.180000,-53.340000,0.000000,top
