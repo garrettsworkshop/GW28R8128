@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.1-0"
+      "Version": "7.0.10"
     },
-    "CreationDate": "2023-12-28T18:54:55-05:00"
+    "CreationDate": "2024-02-16T16:10:31-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -36,16 +36,6 @@
     {
       "Path": "GW28R8128-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "GW28R8128-In1_Cu.g2",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "GW28R8128-In2_Cu.g3",
-      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
