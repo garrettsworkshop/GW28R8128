@@ -1,5 +1,5 @@
 KICAD = /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
-LAYERS = F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts
+LAYERS = F.Cu,B.Cu,F.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts
 
 F_PCB = $@/../GW28R8128.kicad_pcb
 F_SCH = $@/../GW28R8128.kicad_sch
