@@ -25,3 +25,4 @@ GW28R8128-backups/*
 
 *.DS_Store
 Documentation/~$M01Manual.docx
+*.kicad_prl
